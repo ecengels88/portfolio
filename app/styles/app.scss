@@ -1,22 +1,42 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$c-white: #fefefe;
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'resets';
+@import 'layout';
+@import 'navbar';
 
-body {
-  margin: 0;
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0,.2);
+  padding: 1rem;
+  max-width: 30rem;
 
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-img {
-  align-self: center;
-  max-width: 100%;
+.card-image {
+  width: 10rem;
+  height: 10rem;
 }
 
-ul {
-
-  padding-left: 0;
-  list-style: none;
+.yo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
 }
