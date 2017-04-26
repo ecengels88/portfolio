@@ -2,7 +2,7 @@
 // @import 'normalize';
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-$c-white: #fefefe;
+$c-white: #ececec;
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
@@ -14,29 +14,48 @@ $c-white: #fefefe;
   flex-direction: column;
   background: rgba(0,0,0,.2);
   padding: 1rem;
-  max-width: 30rem;
+  max-width: 45rem;
 
   &__content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
   }
 
   &__footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+
+    & * + * {
+      border-left: 1px solid #c7c7c7;
+    }
   }
 }
 
 .card-image {
-  width: 10rem;
-  height: 10rem;
+  width: 50rem;
+  padding: 1rem;
 }
 
 .yo {
-  width: 5rem;
-  height: 5rem;
+  width: 50rem;
+  border: 1px solid black;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: top;
+  filter: sepia(40%);
+}
+
+.card-bio {
+  padding: 1rem;
+  border-left: 1px solid $c-white;
+}
+
+.contact-info {
+  width: 100%;
+  margin: 0;
+  padding: 0 2rem;
+
 }
