@@ -2,7 +2,7 @@
   padding: 1rem;
 
   &--hero {
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.2)), url('/images/nashvilleSunset.jpg');
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4)), url('/images/nashvilleSunset.jpg') no-repeat center center fixed; ;
     background-size: cover;
   }
 
@@ -19,5 +19,5 @@
 .hero {
   display: flex;
   justify-content: center;
-  padding: 10rem;
+  padding: 12rem 0;
 }

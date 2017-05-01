@@ -11,11 +11,17 @@ $c-gray: #222;
 @import 'navbar';
 @import 'card';
 
+.title {
+  padding: 2rem 0;
+  border-bottom: 1px solid $c-gray
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -1rem;
+  padding: 2rem 0;
 }
 
 .grid-profile {
@@ -25,11 +31,14 @@ $c-gray: #222;
   box-shadow: 0.1rem 0.1rem 2rem 0.1rem rgba(0, 0, 0, .5);
 }
 
-.project-content {
+.project-content,
+.project-content p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  margin: 0;
+  padding: 0.5rem;
 
   & * + * {
     border-left: 1px solid $c-gray;

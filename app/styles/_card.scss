@@ -1,35 +1,16 @@
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 45rem;
   padding: 1rem;
-  border-radius: 0.2rem;
   color: $c-white;
-  background: linear-gradient(rgba(34,34,34,0), rgba(34,34,34,0.4));
-
-
-  &__content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    line-height: 2rem;
-  }
-
-  &__footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0;
-
-    & * + * {
-      border-left: 1px solid $c-white;
-    }
-  }
 }
 
 .card-bio {
   padding: 1rem;
+
+  &__title {
+    font-size: 3rem;
+  }
 }
 
 .contact-info {
