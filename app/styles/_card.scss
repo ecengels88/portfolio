@@ -4,7 +4,8 @@
   max-width: 45rem;
   padding: 1rem;
   border-radius: 0.2rem;
-  background: linear-gradient(rgba(34,34,34,0), rgba(34,34,34,0.1));
+  color: $c-white;
+  background: linear-gradient(rgba(34,34,34,0), rgba(34,34,34,0.4));
 
 
   &__content {
@@ -22,7 +23,7 @@
     margin: 0;
 
     & * + * {
-      border-left: 1px solid $c-gray;
+      border-left: 1px solid $c-white;
     }
   }
 }

@@ -5,6 +5,10 @@
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.2)), url('/images/nashvilleSunset.jpg');
     background-size: cover;
   }
+
+  &--main {
+    background: $c-white;
+  }
 }
 
 .container {
