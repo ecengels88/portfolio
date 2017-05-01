@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Evan Engels</title>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" href="/app.css">
 </head>
+
 <body>
+  <nav class="navbar">
+    <div class="navbar__left">
+      <h1 class="logo">E <span class="squared">&sup2;</span></h1>
+    </div>
+    <div class="navbar__right">
+      <ul class="nav-list">
+        <li class="list-item">Portfolio</li>
+        <li class="list-item">Resume</li>
+        <li class="list-item">Contact</li>
+      </ul>
+    </div>
+  </nav>
   <header class="section section--hero">
     <div class="container">
-      <nav class="navbar">
-        <div class="navbar__left">
-          <h1 class="logo">E <span class="squared">&sup2;</span></h1>
-        </div>
-        <div class="navbar__right">
-          <ul class="nav-list">
-            <li class="list-item">Portfolio</li>
-            <li class="list-item">Resume</li>
-            <li class="list-item">Contact</li>
+      <div class="hero">
+        <div class="card">
+          <div class="card__content">
+            <div class="card-bio">
+              <h1 class="card-bio__title">Hi, I'm <span class="my-name">Evan Engels</span></h1>
+              <p class="card-bio__content">A Nashville based front-end developer focused on writing clean code for beautiful and responsive websites.</p>
+            </div>
+          </div>
+          <ul class="card__footer">
+            <li class="contact-info">Email</li>
+            <li class="contact-info">Phone</li>
+            <li class="contact-info">Resume</li>
           </ul>
         </div>
-      </nav>
-      <div class="hero">
-        <!-- <div class="flex-center"> -->
-          <div class="card">
-            <div class="card__content">
-              <div class="card-image">
-                <img src="/images/photo.jpg" alt="A handsome young stud" class="yo">
-              </div>
-              <div class="card-bio">
-                <h1 class="card-bio__title">Hi, I'm Evan Engels</h1>
-                <p class="card-bio__content">Are you at a loss when it comes to web development? Listen, I'll be the first to tell you the 90's were great, but if you're still autoplaying music, using cursor trails, or even glittery backgrounds, then let me help you. Please.</p>
-
-              </div>
-            </div>
-            <ul class="card__footer">
-              <li class="contact-info">Email</li>
-              <li class="contact-info">Phone</li>
-              <li class="contact-info">Resume</li>
-            </ul>
-          </div>
-        <!-- </div> -->
       </div>
     </div>
   </header>
+
+  <main class="section section--main">
+    <div class="container">
+      <div class="portfolio-header">
+        <h1 class="title">My Work</h1>
+
+      </div>
+      <div class="grid">
+        <div class="grid-profile">
+
+        </div>
+      </div>
+    </div>
+  </main>
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>

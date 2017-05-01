@@ -1,11 +1,15 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: $c-white;
 }
 
 .logo {
   margin: 0;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
 }
 
 .nav-list {

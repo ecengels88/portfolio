@@ -2,20 +2,18 @@
   padding: 1rem;
 
   &--hero {
-    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.2)), url('/images/create.jpg');
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.2)), url('/images/nashvilleSunset.jpg');
     background-size: cover;
-    height: 100vh;
-    color: $c-white;
   }
 }
 
 .container {
-  margin: 0 auto;
   max-width: 60rem;
+  margin: 0 auto;
 }
 
 .hero {
   display: flex;
   justify-content: center;
-  padding: 5rem;
+  padding: 10rem;
 }

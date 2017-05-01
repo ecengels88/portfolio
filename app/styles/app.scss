@@ -3,59 +3,10 @@
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $c-white: #ececec;
+$c-gray: #222;
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
 @import 'layout';
 @import 'navbar';
-
-.card {
-  display: flex;
-  flex-direction: column;
-  background: rgba(0,0,0,.2);
-  padding: 1rem;
-  max-width: 45rem;
-
-  &__content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  &__footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0;
-
-    & * + * {
-      border-left: 1px solid #c7c7c7;
-    }
-  }
-}
-
-.card-image {
-  width: 50rem;
-  padding: 1rem;
-}
-
-.yo {
-  width: 50rem;
-  border: 1px solid black;
-  border-radius: 50%;
-  filter: sepia(40%);
-}
-
-.card-bio {
-  padding: 1rem;
-  border-left: 1px solid $c-white;
-}
-
-.contact-info {
-  width: 100%;
-  margin: 0;
-  padding: 0 2rem;
-
-}
+@import 'card';
