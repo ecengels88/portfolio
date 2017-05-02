@@ -1,16 +1,32 @@
 .card {
-  display: flex;
-  flex-direction: column;
   padding: 1rem;
   color: $c-white;
+
+  &--flex {
+    display: flex;
+    align-items: center;
+    background: rgba($c-white, 0.1);
+    max-width: 40rem;
+  }
 }
 
 .card-bio {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
 
   &__title {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
+
+  &__content {
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+}
+
+.my-name {
+  font-size: 3rem;
 }
 
 .contact-info {
@@ -20,5 +36,4 @@
   width: 100%;
   margin: 0;
   padding: 0 2rem;
-
 }

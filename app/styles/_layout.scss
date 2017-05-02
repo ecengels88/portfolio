@@ -9,6 +9,10 @@
   &--main {
     background: $c-white;
   }
+
+  &--contact {
+    background: $c-gray;
+  }
 }
 
 .container {
@@ -19,5 +23,8 @@
 .hero {
   display: flex;
   justify-content: center;
-  padding: 12rem 0;
+
+  &--header {
+    padding: 12rem 0;
+  }
 }
