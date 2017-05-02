@@ -1,6 +1,7 @@
 .title {
   padding: 2rem 0;
-  border-bottom: 1px solid $c-gray
+  border-bottom: 1px solid $c-gray;
+  text-shadow: 0.1rem 0.1rem 0.1rem $c-shadow;
 }
 
 .grid {
@@ -15,7 +16,8 @@
   flex-basis: calc(100%/3 - 2rem);
   flex-grow: 1;
   margin: 1rem;
-  box-shadow: 0.1rem 0.1rem 2rem 0.1rem rgba(0, 0, 0, .5);
+  box-shadow: 0.1rem 0.1rem 2rem 0.1rem $c-shadow;
+  border-radius: 0.2rem;
 }
 
 .project-content,
@@ -30,4 +32,9 @@
   & * + * {
     border-left: 1px solid $c-gray;
   }
+}
+
+.projects {
+  border-radius: 0.2rem 0.2rem 0 0;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
 }

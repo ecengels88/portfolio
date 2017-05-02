@@ -5,8 +5,10 @@
   &--flex {
     display: flex;
     align-items: center;
-    background: rgba($c-white, 0.1);
     max-width: 40rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background: rgba($c-white, 0.1);
   }
 }
 

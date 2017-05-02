@@ -4,6 +4,7 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $c-white: #ececec;
 $c-gray: #222;
+$c-shadow: rgba(0, 0, 0, 0.3);
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
@@ -20,6 +21,7 @@ $c-gray: #222;
 .yo {
   min-width: 100%;
   height: auto;
+  border: 1px solid $c-gray;
   border-radius: 0.5rem;
 }
 
