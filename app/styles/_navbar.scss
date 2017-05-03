@@ -1,10 +1,23 @@
-.navbar {
+.headroom {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 0.5rem 1rem;
-  background: $c-white;
+  transition: transform 300ms linear;
+  will-change: transform;
   color: $c-gray;
+  background: $c-white;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
 }
 
 .logo {

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <nav class="headroom">
     <div class="navbar__left">
       <h1 class="logo">E <span class="squared">&sup2;</span></h1>
     </div>
@@ -99,13 +99,20 @@
   <div class="section section--contact">
     <div class="container">
       <div class="hero hero--contact">
-        <div class="card card--flex">
-          <div class="my-image">
-            <img src="/images/yo.jpg" alt="A handsome young stud" class="yo">
+        <div class="card">
+          <div class="wrapper card--flex">
+            <div class="my-image">
+              <img src="/images/yo.jpg" alt="A handsome young stud" class="yo">
+            </div>
+            <div class="content">
+              <p class="about-me">That guy there, that's me. I'm bent on making the web simpler, more intuitive, and more functional, while also striving to learn and improve the code I write.</p>
+              <p class="about-me">I love to solve problems and learn new languages (both computer and human based), and when I'm away from my laptop you can find me hiking in the mountains, cooking in my kitchen, or jumping out of airplanes at 14,000 feet.</p>
+            </div>
           </div>
-          <div class="content">
-            <p class="about-me">That guy there, that's me. I'm bent on making the web simpler, more intuitive, and more functional, while also striving to learn and improve the code I write.</p>
-            <p class="about-me">I love to solve problems and learn new languages (both computer and human based), and when I'm away from my laptop you can find me hiking in the mountains, cooking in my kitchen, or jumping out of airplanes at 14,000 feet.</p>
+          <div class="contact-methods">
+            <p class="method-btn">Email</p>
+            <p class="method-btn">Phone</p>
+            <p class="method-btn">Resume</p>
           </div>
         </div>
       </div>
@@ -113,6 +120,12 @@
   </div>
 
   <script src="/app.js" charset="utf-8"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+
+  window.sr = ScrollReveal({ reset: true });
+  sr.reveal('.grid-profile', { duration: 200 });
+
+  </script> -->
 </body>
 
 </html>
