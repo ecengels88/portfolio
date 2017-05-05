@@ -13,18 +13,3 @@ $c-shadow: rgba(0, 0, 0, 0.3);
 @import 'card';
 @import 'portfolio';
 @import 'contact';
-
-.bar {
-  padding: 0.5rem;
-  background: linear-gradient(rgba($c-white, 0.1), rgba($c-white, 0.1)), $c-gray;
-  box-shadow: -0.1rem 0 0.1rem 0.1rem $c-shadow;
-}
-
-.social-media {
-  display: flex;
-  justify-content: center;
-}
-
-.social-links {
-  margin: 0.5rem 2.5rem;
-}
