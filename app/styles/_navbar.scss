@@ -10,6 +10,7 @@
   will-change: transform;
   color: $c-gray;
   background: $c-white;
+  box-shadow: 0.1rem 0 0.1rem 0.1rem $c-shadow;
 }
 
 .headroom--pinned {

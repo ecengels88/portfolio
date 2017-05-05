@@ -12,39 +12,8 @@ $c-shadow: rgba(0, 0, 0, 0.3);
 @import 'navbar';
 @import 'card';
 @import 'portfolio';
+@import 'contact';
 
-.my-image {
-  padding: 1rem;
-}
-
-.yo {
-  min-width: 100%;
-  // width: 30rem;
-  height: auto;
-  border: 1px solid $c-gray;
-  border-radius: 0.5rem;
-}
-
-.content {
-  padding: 1rem;
-}
-
-.about-me {
-  line-height: 1.5rem;
-}
-
-.contact-methods,
-.contact-methods p {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  margin: 0;
-  padding: 1rem 0;
-  background: rgba($c-white, 0.1);
-  line-height: 2rem;
-
-  & * + * {
-    border-left: 1px solid $c-white;
-  }
+.bar {
+  background: linear-gradient(rgba($c-white, 0.1), rgba($c-white, 0.1)), $c-gray;
 }
