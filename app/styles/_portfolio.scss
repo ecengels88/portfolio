@@ -18,11 +18,24 @@
 }
 
 .grid-profile {
-  flex-basis: calc(100%/3 - 2rem);
+  flex-basis: calc(100%/2 - 2rem);
   flex-grow: 1;
   margin: 1rem;
   box-shadow: 0.1rem 0.1rem 2rem 0.1rem $c-shadow;
   border-radius: 0.2rem;
+}
+
+.project-image {
+  position: relative;
+}
+
+.project-description {
+  position: absolute;
+  bottom: 12rem;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  line-height: 2rem;
 }
 
 .project-content,
@@ -44,12 +57,12 @@
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
-.invisible {
-  transition: opacity 0.5s ease;
-  opacity: 0.0;
-}
-
-.visible {
-  transition: opacity 0.5s ease;
-  opacity: 1.0;
-}
+// .invisible {
+//   transition: opacity 0.5s ease;
+//   opacity: 0.0;
+// }
+//
+// .visible {
+//   transition: opacity 0.5s ease;
+//   opacity: 1.0;
+// }
