@@ -1,17 +1,17 @@
 .headroom {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: fixed;
   top: 0;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   padding: 0.5rem 1rem;
   transition: transform 300ms linear;
-  will-change: transform;
-  color: $c-gray;
   background: $c-white;
+  color: $c-gray;
   box-shadow: 0.1rem 0 0.1rem 0.1rem $c-shadow;
   z-index: 1000;
+  will-change: transform;
 }
 
 .headroom--pinned {

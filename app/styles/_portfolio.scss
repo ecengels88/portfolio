@@ -20,13 +20,22 @@
 .grid-profile {
   flex-basis: calc(100%/2 - 2rem);
   flex-grow: 1;
+  min-width: 22.5rem;
   margin: 1rem;
-  box-shadow: 0.1rem 0.1rem 2rem 0.1rem $c-shadow;
   border-radius: 0.2rem;
+  box-shadow: 0.1rem 0.1rem 2rem 0.1rem $c-shadow;
+
 }
 
 .project-image {
   position: relative;
+  color: transparent;
+  overflow: auto;
+
+  &:hover {
+    background: rgba($c-gray, 0.5);
+    color: $c-white;
+  }
 }
 
 .project-description {
@@ -34,7 +43,7 @@
   bottom: 12rem;
   width: 100%;
   height: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   line-height: 2rem;
 }
 
