@@ -25,17 +25,18 @@
   border-radius: 0.2rem;
   box-shadow: 0.1rem 0.1rem 2rem 0.1rem $c-shadow;
 
+  &:hover span {
+    color: $c-gray;
+  }
+
+  &:hover img {
+    opacity: 0.2;
+  }
 }
 
 .project-image {
   position: relative;
   color: transparent;
-  overflow: auto;
-
-  &:hover {
-    background: rgba($c-gray, 0.5);
-    color: $c-white;
-  }
 }
 
 .project-description {
