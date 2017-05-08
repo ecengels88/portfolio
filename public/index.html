@@ -16,8 +16,12 @@
     </div>
     <div class="navbar__right">
       <ul class="nav-list">
-        <a href="#portfolio" class="smoothScroll"><li class="list-item">Portfolio</li></a>
-        <a href="#contact" class="smoothScroll"><li class="list-item">Contact</li></a>
+        <a href="#portfolio" class="smoothScroll">
+          <li class="list-item">Portfolio</li>
+        </a>
+        <a href="#contact" class="smoothScroll">
+          <li class="list-item">Contact</li>
+        </a>
         <li class="list-item">Resume</li>
       </ul>
     </div>
@@ -39,65 +43,88 @@
     <div class="container">
       <h1 class="title">Recent Projects</h1>
       <div class="grid">
-        <div class="grid-profile animated infinite fadeIn">
+        <div data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="grid-profile scaleDownIn">
           <span class="project-image">
             <img src="/images/trippin.png" alt="" class="projects">
             <p class="project-description">For my final project at The Iron Yard my team built Trippin', an app built using Ember.js and Java. It will allow travelers to post their photos on a map so that they can be seen and saved by other users who are planning their own trips.</p>
           </span>
           <div class="project-content">
-            <p class="left">Project</p>
+            <!-- <p class="left">Project</p> -->
             <p class="right"><a href="https://github.com/ecengels88/trippin">Code</a></p>
           </div>
         </div>
-        <div class="grid-profile animated infinite fadeIn">
+        <div data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="grid-profile scaleDownIn">
           <span class="project-image">
             <img src="/images/ribbiter.png" alt="" class="projects">
             <p class="project-description">Ribbiter is a social networking app, using Vue.js and Adonis.js, where users can create an account and share their thoughts, 140 characters at a time.</p>
           </span>
           <div class="project-content">
-            <p class="left">Project</p>
+            <p class="left"><a href="http://ecengels-ribbiter.surge.sh/">Project</a></p>
             <p class="right"><a href="https://github.com/ecengels88/20-ribbiter">Code</a></p>
           </div>
         </div>
-        <div class="grid-profile animated infinite fadeIn">
+        <div data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="grid-profile scaleDownIn">
           <span class="project-image">
             <img src="/images/puppies.png" alt="" class="projects">
             <p class="project-description">Built using Vue.js and Redux, and styled with Bulma, Puppies is an app that allows you to adopt puppers and register them for adoption.</p>
           </span>
           <div class="project-content">
-            <p class="left">Project</p>
+            <p class="left"><a href="http://ecengels-puppies.surge.sh/">Project</a></p>
             <p class="right"><a href="https://github.com/ecengels88/18-puppy-adoption">Code</a></p>
           </div>
         </div>
-        <div class="grid-profile animated infinite fadeIn">
+        <div data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="grid-profile scaleDownIn">
           <span class="project-image">
             <img src="/images/spotifyMockup.png" alt="" class="projects">
             <p class="project-description">This Spotify Collections App uses a basic model and view to show data fetched from Spotify. It was built with Vue.js and styled with Bulma.</p>
           </span>
           <div class="project-content">
-            <p class="left">Project</p>
+            <p class="left"><a href="http://ecengels-spotify.surge.sh/">Project</a></p>
             <p class="right"><a href="https://github.com/ecengels88/16-spotify-collection">Code</a></p>
           </div>
         </div>
-        <div class="grid-profile animated infinite fadeIn">
+        <div data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="grid-profile scaleDownIn">
           <span class="project-image">
             <img src="/images/surfAndPaddle.png" alt="" class="projects">
             <p class="project-description">Surf and Paddle was built for a fictional surf company solely using HTML and custom CSS. Replicating the design from a photo, it is now a semi functional website!</p>
           </span>
           <div class="project-content">
-            <p class="left">Project</p>
+            <p class="left"><a href="http://ecengels-surfandpaddle.surge.sh/">Project</a></p>
             <p class="right"><a href="https://github.com/ecengels88/06-surf-and-paddle">Code</a></p>
           </div>
         </div>
-        <div class="grid-profile animated infinite fadeIn">
+        <div data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="grid-profile scaleDownIn">
           <span class="project-image">
             <img src="/images/tshirts.png" alt="" class="projects">
             <p class="project-description">The t-shirts app was an exercise in functional UI. It uses custom CSS and media queries to respond to different screen sizes and change the layout, thereby making the app easier to use.</p>
           </span>
           <div class="project-content">
-            <p class="left">Project</p>
+            <p class="left"><a href="http://evans-tshirt.surge.sh/">Project</a></p>
             <p class="right"><a href="https://github.com/ecengels88/07-tshirts">Code</a></p>
           </div>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h1 class="title">Skills</h1>
+        <div class="skills-div">
+          <ul class="skills-list">
+            <li class="skills">Javascript</li>
+            <li class="skills">HTML5</li>
+            <li class="skills">CSS3</li>
+            <li class="skills">Agile</li>
+          </ul>
+          <ul class="skills-list">
+            <li class="skills">Ember.js</li>
+            <li class="skills">Vue.js</li>
+            <li class="skills">Adonis.js</li>
+            <li class="skills">SASS</li>
+          </ul>
+          <ul class="skills-list">
+            <li class="skills">Redux</li>
+            <li class="skills">Git & Github</li>
+            <li class="skills">Bulma</li>
+            <li class="skills">Flexbox</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -135,7 +162,14 @@
     </div>
   </footer>
 
+  <!-- <script src="ScrollTrigger.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      var trigger = new ScrollTrigger();
+    });
+  </script> -->
   <script src="/app.js" charset="utf-8"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
 </body>
 
 </html>

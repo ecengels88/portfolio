@@ -1,0 +1,10 @@
+@media (max-width: 630px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-image {
+    max-width: 10rem;
+  }
+}
